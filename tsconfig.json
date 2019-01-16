@@ -19,7 +19,7 @@
     ],
     "paths": {
       "coreui-angular": [
-        "dist/coreui-angular"
+        "dist/@coreui/angular/bundles/coreui-angular.umd.js"
       ],
       "angular": [
         "dist/angular"
