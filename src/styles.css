@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./../node_modules/@coreui/coreui/dist/css/coreui.min.css";
+@import "./../node_modules/font-awesome/css/font-awesome.min.css";
+
+/* Use font-awesome fa-sliders for right settings menu */
+.app-header .navbar-toggler:nth-of-type(3) .navbar-toggler-icon,
+.app-header .navbar-toggler:nth-of-type(3):hover .navbar-toggler-icon,
+.app-header .navbar-toggler:nth-of-type(4) .navbar-toggler-icon,
+.app-header .navbar-toggler:nth-of-type(4):hover .navbar-toggler-icon {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: none;
+    color: #999999;
+    font-size: 1.33333333em;
+    line-height: 0.75em;
+    vertical-align: -15%;
+}
+.app-header .navbar-toggler:nth-of-type(3) .navbar-toggler-icon:before,
+.app-header .navbar-toggler:nth-of-type(3):hover .navbar-toggler-icon:before,
+.app-header .navbar-toggler:nth-of-type(4) .navbar-toggler-icon:before,
+.app-header .navbar-toggler:nth-of-type(4):hover .navbar-toggler-icon:before {
+    content: "\f1de";
+}
+
+.app-header .navbar-toggler:nth-of-type(3):hover .navbar-toggler-icon,
+.app-header .navbar-toggler:nth-of-type(4):hover .navbar-toggler-icon {
+    color: #555555;
+}
